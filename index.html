@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Ninja</title>
+  <link rel="shortcut icon" href="./logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- This is Navigation Bar start-->
+  <nav>
+    <!-- Website logo div -->
+    <div class="logo">
+      <a href="index.html">
+        <img src="./logo.png">
+      </a>
+    </div>
+
+    <!-- Search bar -->
+    <div class="search-box">
+      <button type ="submit" class="btn-search btn" id="search-btn"><i class="fas fa-search"></i></button>
+      <input type="text" class="input-search" placeholder="Type to Search..." id = "search-input">
+    </div>
+
+    <!-- Home And Favourites -->
+    <div class="box">
+      <ul>
+        <li class="hvr-bounce-to-bottom"><a id="list" href="index.html"><span style="margin: 0 10px;">
+          <i class="fa-solid fa-house"></i>
+        </span>Home</a></li>
+	      <li class="hvr-bounce-to-bottom">
+          <a id="list" href="favouriteMeal.html">
+          <span style="margin: 0 10px;">
+          <i class="fa-solid fa-heart"></i>
+        </span>Favourite</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <!-- This is Navigation Bar End -->
+
+  <!-- Showing All Recipe Start -->
+  <div class="meal-result">
+    <h2 class="title">Your Search Result:</h2>
+    <div id="meal">
+      <!-- meal items -->
+      <!-- <div class="meal-item">
+        <div class="meal-img">
+          <img src="/sandwich.jpg" alt="sandwich">
+        </div>
+        <div class="meal-name">
+          <h3>Sandwich</h3>
+        </div>
+        <div class="buttons">
+          <a href="#" class="recipe-btn" id="button">
+            <span><i class="fa-regular fa-file-lines"></i>
+            </span>
+            Get Recipe
+          </a>
+          <a href="#" class="recipe-btn" id="button">
+            <span><i class="fa-solid fa-heart"></i></span>
+            Add Favourite
+          </a>
+        </div>    
+      </div> -->
+
+      
+
+    </div>
+
+
+
+    
+  </div>
+  <!-- Showing All Recipe End -->
+
+
+  <!-- model for recipe description start -->
+  <div class = "meal-details">
+    <!-- recipe close btn -->
+    <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+      <i class = "fas fa-times"></i>
+    </button>
+
+    <!-- meal content -->
+    <div class = "meal-details-content">
+      <!-- <h2 class = "recipe-title">Meals Name Here</h2>
+      <p class = "recipe-category">Category Name</p>
+      <div class = "recipe-instruct">
+        <h3>Instructions:</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+      </div>
+      <div class = "recipe-meal-img">
+        <img src = "food.jpg" alt = "">
+      </div>
+      <div class = "recipe-link">
+        <a href = "#" target = "_blank">Watch Video</a>
+      </div> -->
+    </div>
+  </div>
+  <!-- model for recipe description end -->
+  <script src = "./js/script.js"></script>
+</body>
+</html>
